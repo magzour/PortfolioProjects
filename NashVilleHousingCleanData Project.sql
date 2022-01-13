@@ -18,7 +18,7 @@ From PortfolioProject.dbo.NashvilleHousing
 Update NashvilleHousing
 SET SaleDate = CONVERT(Date,SaleDate)
 
--- If it doesn't Update properly
+-- Did Not Update properly
 
 ALTER TABLE NashvilleHousing
 Add SaleDateConverted Date;
